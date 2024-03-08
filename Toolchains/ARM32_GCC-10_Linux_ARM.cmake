@@ -10,8 +10,8 @@ set(CMAKE_SYSTEM_PROCESSOR          arm)
 # Without that flag CMake is not able to pass test compilation check
 set(CMAKE_TRY_COMPILE_TARGET_TYPE   STATIC_LIBRARY)
 
-set(CMAKE_C_COMPILER                ~/virtines/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc)
-set(CMAKE_CXX_COMPILER              ~/virtines/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++)
+set(CMAKE_C_COMPILER                /home/ramon/virtines/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc)
+set(CMAKE_CXX_COMPILER              /home/ramon/virtines/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++)
 
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
